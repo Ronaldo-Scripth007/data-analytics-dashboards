@@ -31,8 +31,16 @@ Análise detalhada de vendas online simulando um ambiente de e-commerce, destaca
 ---
 
 ## 🚚 Dashboard de Análise de Custos Operacionais (Excel)
-Painel financeiro e operacional desenvolvido 100% no Excel para controle de frota e logística. O dashboard apresenta o detalhamento de receita bruta, receita líquida, impostos e controle de despesas (pedágio, oficina e consumo de diesel por veículo).
+Painel financeiro e operacional avançado, desenvolvido 100% em Excel para o controle estratégico de frota e logística. O projeto consolida dados de múltiplas fontes (sistemas de pedágio, telemetria, abastecimento, manutenção e locação) para apresentar o detalhamento de receita bruta, receita líquida, impostos e custos precisos por veículo.
+
+**Principais técnicas e fórmulas aplicadas:**
+* **Cruzamento de Dados (Relacionamento):** Utilização intensiva de funções de busca (`PROCX`, `PROCV` ou `ÍNDICE/CORRESP`) para unificar informações de mais de 7 bases de dados diferentes, utilizando a placa do veículo como chave primária.
+* **Cálculos e Agregações Condicionais:** Aplicação de `SOMASES` e funções lógicas (`SE`, `E`, `OU`) para consolidar os gastos com diesel, pedágio, oficina e depreciação, segmentando por operação e por frota.
+* **Tratamento e Integridade de Dados:** Uso de `SEERRO` para tratamento de exceções, garantindo que o dashboard funcione perfeitamente sem exibir erros visuais quando há lacunas nas bases de origem.
+* **Modelagem:** Estruturação profissional separando abas de parâmetros (dimensões) das abas de consolidação e fatos (como a aba *Forecast Custo*), otimizando o processamento do arquivo.
+
+> ⚠️ **Nota de Privacidade e Compliance:** Em respeito à LGPD e às melhores práticas de segurança, todos os dados operacionais e financeiros deste projeto (como placas, valores e rotas) foram embaralhados, mascarados e anonimizados. Os números apresentados são estritamente fictícios e servem exclusivamente para demonstrar a arquitetura lógica e as habilidades técnicas na ferramenta.
 
 ![Dashboard Análise de Custos](Analise_Custo_Excel.png)
 
-**📥 [Clique aqui para baixar a planilha original (.xlsx) e visualizar as fórmulas e estrutura do projeto](ANALISE_DE_CUSTO_EXCEL.xlsx)**
+**📥 [Clique aqui para baixar a planilha modelo (.xlsx) e visualizar a estrutura de relatórios](ANALISE_DE_CUSTO_EXCEL.xlsx)**
