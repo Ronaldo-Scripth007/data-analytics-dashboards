@@ -45,17 +45,18 @@ Painel financeiro e operacional avançado, desenvolvido 100% em Excel para o con
 
 **📥 [Clique aqui para baixar a planilha modelo (.xlsx) e visualizar a estrutura de relatórios](ANALISE_DE_CUSTO_EXCEL.xlsx)**
 
+<!--
 ---
 
-#### 🚚 Dashboard de Auditoria Logística e Produtividade (Power BI)
-#
-#Desenvolvido para o setor de transportes e logística, este painel atua como uma ferramenta robusta de auditoria operacional. Ele automatiza a conferência de emissões de fretes (CTRC), garantindo o *compliance* das regras de negócio e monitorando o #desempenho e a qualidade da equipe de analistas.
-#
-#**Principais análises e recursos:**
-#* **Validação de Emissões e Trava de CNPJ:** Cruzamento inteligente de dados para identificar divergências entre a unidade emissora real e a unidade esperada, mapeando falhas de roteirização e regras de CNPJ.
-#* **Auditoria de Fretes e Tarifas:** Visão detalhada para validação financeira, cruzando valores de mercadoria, taxas de gerenciamento de risco (GRIS) e cotações.
-#* **Gestão de Produtividade (Equipe):** Acompanhamento de KPIs de volume de emissões (em quantidade e valor financeiro) segmentado por login, cliente e turno de trabalho.
-#* **Controle de Qualidade (Taxa de Erro):** Ranking dinâmico de analistas pelo percentual de emissões incorretas, fornecendo dados exatos para aplicação de feedbacks e treinamentos de melhoria contínua.
-#
-#![Dashboard de Auditoria Logística](LINK_DA_SUA_IMAGEM_AQUI.png)
+### 🚚 Dashboard de Auditoria Logística e Produtividade (Power BI)
+
+Desenvolvido para o setor de transportes e logística, este painel atua como uma ferramenta robusta de auditoria operacional. Ele automatiza a conferência de emissões de fretes (CTRC), garantindo o *compliance* das regras de negócio e monitorando o desempenho e a qualidade da equipe de analistas.
+
+**Principais análises e recursos:**
+* **Validação de Emissões e Trava de CNPJ:** Cruzamento inteligente de dados para identificar divergências entre a unidade emissora real e a unidade esperada, mapeando falhas de roteirização e regras de CNPJ.
+* **Auditoria de Fretes e Tarifas:** Visão detalhada para validação financeira, cruzando valores de mercadoria, taxas de gerenciamento de risco (GRIS) e cotações.
+* **Gestão de Produtividade (Equipe):** Acompanhamento de KPIs de volume de emissões (em quantidade e valor financeiro) segmentado por login, cliente e turno de trabalho.
+* **Controle de Qualidade (Taxa de Erro):** Ranking dinâmico de analistas pelo percentual de emissões incorretas, fornecendo dados exatos para aplicação de feedbacks e treinamentos de melhoria contínua.
+
+![Dashboard de Auditoria Logística](LINK_DA_SUA_IMAGEM_AQUI.png)
 
