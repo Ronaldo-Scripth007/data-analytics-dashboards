@@ -1,3 +1,41 @@
+## 🚛 Dashboard de Auditoria Logística e Produtividade (Power BI)
+
+Desenvolvido para o setor de transportes e logística, este painel atua como uma ferramenta robusta de auditoria operacional. Automatiza a conferência de emissões de fretes (CTRC), garantindo o *compliance* das regras de negócio e monitorizando o desempenho e a qualidade da equipe de analistas.
+
+**Principais técnicas e recursos aplicados:**
+* **DAX Avançado e Grupos de Cálculo (Calculation Groups):** Aplicação de modelação avançada e grupos de cálculo para otimizar medidas dinâmicas, inteligência de tempo e regras de negócio complexas, garantindo alta performance de processamento.
+* **Validação de Emissões e Trava de CNPJ:** Cruzamento inteligente de dados para identificar divergências entre a unidade emissora real e a unidade esperada, mapeando falhas de roteamento.
+* **Auditoria de Fretes e Tarifas:** Visão detalhada para validação financeira, cruzando valores de mercadoria, taxas de gestão de risco (GRIS) e cotações.
+* **Controlo de Produtividade e Qualidade (Taxa de Erro):** Acompanhamento de KPIs de volume de emissões e ranking dinâmico de analistas pela percentagem de emissões incorretas, fornecendo dados exatos para aplicação de feedback e formação.
+
+> ⚠️ **Nota de Privacidade e Compliance:** Em respeito à proteção de dados e às melhores práticas de segurança, **todos os dados apresentados neste projeto (nomes de clientes, empresas, CNPJs, valores financeiros, rotas e logins de analistas) são 100% fictícios (mock data)**. Estes foram gerados e anonimizados exclusivamente para demonstrar a arquitetura lógica, modelação e competências técnicas na ferramenta.
+
+### 📊 Ecrãs do Projeto
+
+**1. Validação de Unidade Emissora**
+Visão geral de auditoria de unidades emissoras, comparando a unidade de origem com a esperada, incluindo o ranking de qualidade por analista e volume por cliente.
+
+<img width="1839" height="885" alt="Validação_Unidade_Emissora" src="https://github.com/user-attachments/assets/0e532988-c47a-4c25-b5f5-24d928235ef6" />
+
+**2. Produtividade da Equipa**
+Acompanhamento detalhado de KPIs operacionais (volume de emissões, valor total, médias), distribuição de trabalho por turnos e ranking de precisão/erros por analista.
+
+<img width="1842" height="914" alt="Produtividade" src="https://github.com/user-attachments/assets/fe0ecc41-b601-4314-b24a-967ec9b183dc" />
+
+**3. Trava de CNPJ**
+Painel focado no *compliance* de cadastros, validando as regras de negócio de CNPJs (Remetente, Destinatário, Expedidor) e sinalizando divergências na matriz de expedição.
+
+
+<img width="1839" height="889" alt="Trava_Cnpj" src="https://github.com/user-attachments/assets/e3b87653-6f62-4cc3-8859-53c608f35165" />
+
+**4. Validação e Observação de Fretes**
+Auditoria financeira granular ao nível do conhecimento de transporte, cruzando o valor da mercadoria com o cálculo de GRIS, frete sem ICMS e rateios de cotação.
+
+
+<img width="1843" height="895" alt="Validação_Observação" src="https://github.com/user-attachments/assets/563d79c9-f717-4508-b707-987e958318a8" />
+
+---
+
 # 📊 Portfólio de Dashboards em Power BI e Excel
 
 Bem-vindo ao meu portfólio de dados! 📊 Aqui apresento meus projetos focados em transformar dados em inteligência de negócios.
